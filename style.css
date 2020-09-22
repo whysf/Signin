@@ -1,0 +1,33 @@
+body{
+    background-color: #525252;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100vh;
+}
+#big-container{
+    width: 400px;
+    height: 500px;
+    background-color: antiquewhite;
+    position :absolute;
+ top: 50%;
+ left:50%;
+ transform:translate(-50%, -50%);
+      
+
+
+        
+
+}
+p{
+    font-family: "Roboto";
+}
+#login{
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    font-weight: bold;
+}
+#userandpass{
+    text-align: center;
+}
