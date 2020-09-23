@@ -1,5 +1,5 @@
 body{
-    background-color: #525252;
+    background-color: #f8efd4;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -7,8 +7,8 @@ body{
 }
 #big-container{
     width: 400px;
-    height: 500px;
-    background-color: antiquewhite;
+    height: 300px;
+    background-color: white;
     position :absolute;
  top: 50%;
  left:50%;
@@ -22,12 +22,41 @@ body{
 p{
     font-family: "Roboto";
 }
-#login{
-    text-align: center;
+#welcome{
+margin: 0%;
     font-size: 40px;
-    margin: 0;
     font-weight: bold;
+    text-align: center;
 }
 #userandpass{
     text-align: center;
+}
+#container{
+    position :absolute;
+ left:50%;
+ transform:translateX(-50%);
+}
+#login{
+    width: 308px;
+    height: 30px;
+    font-size: 15px;
+    background-color: #f8efd4;
+    border-color: rgb(209, 203, 203);
+    border: 1px rgb(209, 203, 203) solid;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 10px red ;
+}
+#create-account{
+   font-size: 12px;
+   text-align: left; 
+}
+.input{
+    width: 300px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 20px;
+    outline: none;
+    
 }
